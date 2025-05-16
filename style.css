@@ -5,3 +5,7 @@
 .icon }
   align-items: flex-start;
 }
+
+.buttons {
+  justify-content: center;
+}
