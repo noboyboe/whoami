@@ -1,3 +1,7 @@
 .header }
+  align-items: center;
+}
 
+.icon }
+  align-items: flex-start;
 }
