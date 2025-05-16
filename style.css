@@ -1,12 +1,24 @@
 .header {
+  position: relative;
   align-items: center;
+  justify-content: center;
   background-color: #fff0f5;
+  display: flex;
+  padding: 30px;
+  
+}
+
+body {
+  margin: 0;
 }
 
 .icon {
-  align-items: flex-start;
+  position: absolute;
+  left: 10px;
+
 }
 
 .buttons {
-  justify-content: center;
+  display: flex;
+  gap: 10px;
 }
