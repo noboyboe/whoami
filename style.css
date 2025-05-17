@@ -1,8 +1,11 @@
 .header {
-  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
   align-items: center;
   justify-content: center;
-  background-color: #fff0f5;
+  background-color: #ff99cc;
   display: flex;
   padding: 30px;
   
@@ -12,6 +15,17 @@ body {
   margin: 0;
   background-image: url('pink.jpg');
   background-size: cover;
+  height: 100%;
+  
+}
+
+.content {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: rgba(255, 105, 180, 0.6)
 }
 
 .icon {
